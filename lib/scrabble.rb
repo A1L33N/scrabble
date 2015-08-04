@@ -29,7 +29,7 @@ class String
       'y'=> 4,
       'z'=> 10
       }
-    word_array = self.split("")
+    word_array = self.downcase().split("")
     score_array = []
     word_array.each() do |letter|
       score_array.push(key_name.fetch(letter))
