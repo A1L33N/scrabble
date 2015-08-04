@@ -35,5 +35,10 @@ class String
       score_array.push(key_name.fetch(letter))
     end
       score_array
+      total = 0
+      score_array.each() do |number|
+        total = total.+(number)
+      end
+      total
   end
 end
