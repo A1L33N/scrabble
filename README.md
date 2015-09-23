@@ -6,12 +6,13 @@
 
 ##Description
 
-{Takes string input and calculates the score of the inputted word by calling the scrabble method.}
+Takes a word input and calculates the score of the inputted word by calling the scrabble method
 
 ##Setup
 
-This is a great place
-to list setup instructions
-in a simple
-easy-to-understand
-format
+Clone this repository. 
+Open the command line and enter the project folder.
+Run 'ruby app.rb'
+Find the 4-digit port number.
+Open the browser of your choice.
+Then open your web browser and go to "http://localhost:"" with the port number at the end of the url.
